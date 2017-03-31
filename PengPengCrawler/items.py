@@ -6,9 +6,15 @@
 # http://doc.scrapy.org/en/latest/topics/items.html
 
 import scrapy
-
+from scrapy.item import Field  
 
 class PengpengcrawlerItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
+
+class ToyItem(scrapy.Item):
+    name = Field()
+    link = Field()
+    desc = Field()
+    price = Field()
