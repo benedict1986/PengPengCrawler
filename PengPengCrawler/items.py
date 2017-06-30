@@ -13,7 +13,7 @@ class PengpengcrawlerItem(scrapy.Item):
     # name = scrapy.Field()
     pass
 
-class ToyItem(scrapy.Item):
+class PropertyItem(scrapy.Item):
     name = Field()
     link = Field()
     desc = Field()
